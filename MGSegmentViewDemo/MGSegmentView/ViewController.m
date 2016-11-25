@@ -41,7 +41,7 @@
     segment.buttonFont = 14;
     segment.isClickIndexReturn = YES;
     segment.ReturnClickSegmetAtIndex = ^(NSInteger index, NSInteger lastIndex) {
-        NSLog(@"====block=====%ld=====%ld===", index, lastIndex);
+        NSLog(@"====block=====%ld=====%ld===", (long)index, (long)lastIndex);
     };
     
     
@@ -54,7 +54,7 @@
 }
 
 -(void)segmentView:(MGSegmentView *)segmentView didSelectedSegmentAtIndex:(NSInteger)index lastSelectedSegmentAtIndex:(NSInteger)lastIndex {
-    NSLog(@"====delegate=====%ld=====%ld===", index, lastIndex);
+    NSLog(@"====delegate=====%ld=====%ld===", (long)index, (long)lastIndex);
 }
 
 

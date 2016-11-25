@@ -60,6 +60,9 @@
 }
 -(void)awakeFromNib {
     [super awakeFromNib];
+    CGRect oldFrame = self.frame;
+    oldFrame.size.width = [UIScreen mainScreen].bounds.size.width;
+    self.frame = oldFrame;
     //设置页面布局
     [self loadCreateViewLayout];
 }
