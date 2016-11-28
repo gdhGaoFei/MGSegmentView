@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'MGSegmentView'
-s.version = '1.0.0'
+s.version = '1.0.1'
 s.license = 'MIT'
 s.summary = 'An Segment view on iOS.'
 s.homepage = 'https://github.com/gdhGaoFei/MGSegmentView'
